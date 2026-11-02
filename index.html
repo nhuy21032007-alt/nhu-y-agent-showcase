@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#e9f7ff">
+    <meta name="description" content="Trang trưng bày tĩnh của Hermes Agent tintuc — phiên âm, phân tích và tổng hợp nội dung âm thanh, video với quy tắc kiểm chứng minh bạch.">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; form-action 'none'; frame-src 'none'">
+    <meta name="referrer" content="no-referrer">
+    <title>tintuc — Trợ lý tổng hợp tin tức</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Đi đến nội dung chính</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="tintuc, về đầu trang">
+          <span class="brand-badge" aria-hidden="true"><span class="brand-bars"><i></i><i></i><i></i></span><span class="brand-spark">✦</span></span>
+          <span><strong>tintuc</strong><small>HERMES AGENT</small></span>
+        </a>
+        <nav class="main-nav" aria-label="Điều hướng các phần">
+          <a href="#nhiem-vu">Tổng quan</a>
+          <a href="#quy-trinh">Quy trình</a>
+          <a href="#nang-luc">Năng lực</a>
+          <a href="#kiem-thu">Kiểm thử</a>
+        </nav>
+        <a class="header-button" href="#demo">Xem demo <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-decoration cloud cloud-one" aria-hidden="true"></div>
+        <div class="hero-decoration cloud cloud-two" aria-hidden="true"></div>
+        <div class="hero-decoration sun" aria-hidden="true"><span>✦</span></div>
+        <div class="hero-decoration star star-one" aria-hidden="true">✦</div>
+        <div class="hero-decoration star star-two" aria-hidden="true">✧</div>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="status-dot"></span> TRANG TRƯNG BÀY · CHỈ ĐỌC</p>
+            <h1 id="hero-title">Nghe kỹ,<br><span>hiểu đúng,</span><br>tóm lược rõ.</h1>
+            <p class="hero-lead"><strong>tintuc</strong> là Hermes Agent được thiết kế để biến liên kết và tệp âm thanh/video thành bản tổng hợp tiếng Việt có cấu trúc, nguồn tham khảo và mốc thời gian.</p>
+            <div class="hero-actions">
+              <a class="button button-blue" href="#demo">Xem quy trình mẫu <span aria-hidden="true">→</span></a>
+              <a class="button button-white" href="#kiem-thu">Xem trạng thái kiểm thử</a>
+            </div>
+            <p class="hero-privacy"><span aria-hidden="true">🔒</span> Website độc lập · Không kết nối Hermes thật hoặc API</p>
+          </div>
+          <div class="hero-art" aria-label="Minh họa quy trình xử lý mô phỏng">
+            <div class="art-sun" aria-hidden="true">☀</div>
+            <div class="art-cloud art-cloud-a" aria-hidden="true"></div>
+            <div class="art-cloud art-cloud-b" aria-hidden="true"></div>
+            <div class="showcase-window">
+              <div class="window-top"><span class="window-lights"><i></i><i></i><i></i></span><span>tintuc · phiên làm việc</span><span class="window-label">MÔ PHỎNG</span></div>
+              <div class="window-content">
+                <div class="window-title"><div><span class="tiny-label">KỊCH BẢN CỐ ĐỊNH</span><h2>Phân tích một đoạn video</h2></div><span class="window-play" aria-hidden="true">▶</span></div>
+                <div class="fake-file"><span class="file-type">MP4</span><span><strong>video_mau.mp4</strong><small>Dữ liệu hư cấu · không tải tệp</small></span><b aria-hidden="true">✓</b></div>
+                <div class="fake-progress" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+                <div class="fake-row"><span>✓</span> Kiểm tra đầu vào <small>01</small></div>
+                <div class="fake-row"><span>✓</span> Phiên âm và phân loại <small>02</small></div>
+                <div class="fake-row fake-row-last"><span>✦</span> Đối chiếu nguồn <small>03</small></div>
+                <div class="demo-ribbon">MINH HỌA GIAO DIỆN — KHÔNG XỬ LÝ THẬT</div>
+              </div>
+            </div>
+            <div class="floating-note"><span class="note-icon">✓</span><span><strong>Ưu tiên bằng chứng</strong><small>Không đoán khi chưa xác minh</small></span></div>
+          </div>
+        </div>
+        <div class="hero-bottom"><span>MP3</span><span>WAV</span><span>MP4</span><span>LIÊN KẾT INTERNET</span><span class="hero-bottom-note">Nội dung báo cáo mặc định bằng tiếng Việt</span></div>
+      </section>
+
+      <section class="one-line section-shell" aria-label="Định nghĩa công việc">
+        <div class="pin-icon" aria-hidden="true">📌</div>
+        <p><strong>Định nghĩa một câu:</strong> Khi nhận liên kết Internet hoặc tệp MP3, WAV, MP4, tintuc kiểm tra đầu vào, trích xuất và phân tích nội dung, xác minh thông tin nổi bật với nguồn đáng tin cậy, rồi chuẩn bị báo cáo trong hội thoại cùng tệp Word/PDF theo yêu cầu.</p>
+      </section>
+
+      <section class="section section-shell" id="nhiem-vu">
+        <div class="section-heading">
+          <span class="section-icon icon-blue" aria-hidden="true">☁</span>
+          <div><p class="eyebrow">01 · TỔNG QUAN</p><h2>Agent này giúp gì?</h2></div>
+        </div>
+        <div class="intro-grid">
+          <article class="soft-card intro-card">
+            <span class="card-number">VAI TRÒ</span>
+            <h3>Trợ lý tổng hợp tin tức</h3>
+            <p>tintuc tiếp nhận một hoặc nhiều liên kết hoặc tệp âm thanh/video, chuyển lời nói thành văn bản, phân tích ý chính và chuẩn bị báo cáo dễ đọc bằng tiếng Việt.</p>
+            <p class="muted">Tập trung vào tính chính xác, khả năng kiểm tra lại nguồn và việc nêu rõ giới hạn của thông tin.</p>
+          </article>
+          <article class="soft-card goal-card">
+            <span class="card-number">MỤC TIÊU</span>
+            <h3>Giúp người đọc nắm nội dung và kiểm tra lại</h3>
+            <ul class="check-list">
+              <li><span>✦</span> Chọn ý liên quan trực tiếp đến mục tiêu.</li>
+              <li><span>✦</span> Ghi nguồn và mốc thời gian khi xác định được.</li>
+              <li><span>✦</span> Tách thông tin, ý kiến và đề xuất.</li>
+              <li><span>✦</span> Đánh dấu phần mâu thuẫn hoặc chưa xác minh.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-tint" id="so-sanh">
+        <div class="section-shell">
+          <div class="section-heading">
+            <span class="section-icon icon-butter" aria-hidden="true">☀</span>
+            <div><p class="eyebrow">02 · CÁCH LÀM</p><h2>Thủ công và khi có Agent hỗ trợ</h2></div>
+          </div>
+          <p class="section-lead">Bảng dưới đây mô tả quy trình dự kiến. Chưa có phép đo thời gian thực tế nên website không tuyên bố số phút hay tỷ lệ tiết kiệm.</p>
+          <div class="table-wrap">
+            <table class="compare-table">
+              <thead><tr><th>Việc cần làm</th><th>Tự làm thủ công</th><th>Agent hỗ trợ theo Profile</th><th>Trạng thái hiện tại</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Kiểm tra đầu vào</strong></td><td>Mở từng tệp/liên kết, xem định dạng và nội dung có đầy đủ không.</td><td>Kiểm tra khả năng truy cập, định dạng, độ đầy đủ và sự phù hợp.</td><td><span class="badge badge-design">Quy trình thiết kế</span></td></tr>
+                <tr><td><strong>Nghe và ghi nội dung</strong></td><td>Nghe lại, tự ghi lời thoại, chú ý tên riêng và con số.</td><td>Tách âm thanh khi cần, phiên âm; đánh dấu đoạn chưa rõ thay vì đoán.</td><td><span class="badge badge-partial">Đã thử cục bộ một mẫu ngắn</span></td></tr>
+                <tr><td><strong>Chọn ý và kiểm chứng</strong></td><td>Tự ghi ý chính, tìm nguồn đối chiếu và phát hiện khác biệt.</td><td>Gắn mã nguồn, phân loại ý, tìm nguồn độc lập và nêu mâu thuẫn.</td><td><span class="badge badge-design">Chưa kiểm thử đầu-cuối</span></td></tr>
+                <tr><td><strong>Soạn và bàn giao</strong></td><td>Tự sắp xếp nội dung, trích dẫn, mục lục và định dạng tài liệu.</td><td>Hiển thị báo cáo trong hội thoại và tạo Word/PDF theo quy trình.</td><td><span class="badge badge-design">Word/PDF chưa xác nhận</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="note-box"><span aria-hidden="true">💡</span><p><strong>Không có số liệu tiết kiệm thời gian đã đo.</strong> Việc Agent hỗ trợ các bước trên được mô tả trong Profile; chỉ một số bước xử lý âm thanh đã được thử riêng, chưa chứng minh cả quy trình hoàn tất.</p></div>
+        </div>
+      </section>
+
+      <section class="section section-shell" id="cong-cu">
+        <div class="section-heading">
+          <span class="section-icon icon-blue" aria-hidden="true">🧰</span>
+          <div><p class="eyebrow">03 · CÔNG CỤ</p><h2>Những thành phần liên quan</h2></div>
+        </div>
+        <div class="tool-grid">
+          <article class="tool-card"><span class="tool-emoji">🧭</span><h3>Hermes Profile</h3><p>Nơi lưu vai trò và quy tắc làm việc của Agent `tintuc`.</p><span class="badge badge-blue">Profile đã tạo</span></article>
+          <article class="tool-card"><span class="tool-emoji">🪄</span><h3>Codex</h3><p>Được dùng để thiết kế Profile, quy trình và website trưng bày này.</p><span class="badge badge-blue">Đã sử dụng cho thiết kế</span></article>
+          <article class="tool-card"><span class="tool-emoji">🎬</span><h3>FFmpeg</h3><p>Trích âm thanh khỏi video và chuyển đổi định dạng media cục bộ.</p><span class="badge badge-green">Đã thử trích xuất từ MP4 mẫu</span></article>
+          <article class="tool-card"><span class="tool-emoji">🎧</span><h3>faster-whisper</h3><p>Bộ phiên âm cục bộ được cài trong môi trường Hermes, dùng mô hình `base` cho kiểm tra thành phần.</p><span class="badge badge-green">Đã phiên âm mẫu ngắn</span></article>
+          <article class="tool-card"><span class="tool-emoji">🔎</span><h3>Web Search</h3><p>Công cụ tìm kiếm web có trong bộ công cụ Hermes; khả năng đối chiếu nguồn độc lập chưa được kiểm thử trong một báo cáo hoàn chỉnh.</p><span class="badge badge-yellow">Có công cụ · chưa xác nhận đầu-cuối</span></article>
+          <article class="tool-card"><span class="tool-emoji">💬</span><h3>Feishu/Lark (kênh tùy chọn)</h3><p>Bot đã trả lời kiểm tra văn bản trong chat riêng và nhóm thử; nhận tệp media qua kênh chưa được xác nhận.</p><span class="badge badge-yellow">Văn bản đã thử · tệp chưa thử</span></article>
+        </div>
+      </section>
+
+      <section class="section section-bluewash" id="dau-vao">
+        <div class="section-shell">
+          <div class="section-heading">
+            <span class="section-icon icon-butter" aria-hidden="true">📥</span>
+            <div><p class="eyebrow">04 · ĐẦU VÀO</p><h2>Những gì Agent được thiết kế để nhận</h2></div>
+          </div>
+          <div class="input-grid">
+            <article class="input-card"><div class="format-icon format-mp3">MP3</div><div><h3>Âm thanh</h3><p>Tệp MP3 hoặc WAV. Agent cần kiểm tra tệp có mở được, nội dung có nghe/đọc được và có bị cắt hay không.</p></div></article>
+            <article class="input-card"><div class="format-icon format-mp4">MP4</div><div><h3>Video có âm thanh</h3><p>Tệp MP4. Có thể cần trích âm thanh trước khi chuyển lời thoại thành văn bản.</p></div></article>
+            <article class="input-card"><div class="format-icon format-link">↗</div><div><h3>Đường link</h3><p>Liên kết đến video, âm thanh hoặc bài viết công khai; trang đăng nhập/giới hạn truy cập có thể không đọc được.</p></div></article>
+            <article class="input-card"><div class="format-icon format-note">✎</div><div><h3>Chỉ dẫn tùy chọn</h3><p>Chủ đề, mục tiêu báo cáo, ngôn ngữ và mức độ chi tiết. Nếu mục tiêu chưa rõ, Agent cần hỏi lại.</p></div></article>
+          </div>
+          <div class="batch-note"><span aria-hidden="true">🧺</span><p><strong>Quy mô dự kiến mỗi lượt:</strong> 1–3 liên kết hoặc tệp, tổng thời lượng media khoảng 30–60 phút. Nếu vượt mức này, Agent nên báo và đề xuất chia lượt.</p></div>
+        </div>
+      </section>
+
+      <section class="section section-shell" id="quy-trinh">
+        <div class="section-heading section-heading-spread">
+          <div class="heading-combo"><span class="section-icon icon-blue" aria-hidden="true">🧩</span><div><p class="eyebrow">05 · QUY TRÌNH CHI TIẾT</p><h2>Từ đầu vào đến báo cáo</h2></div></div>
+          <div class="accordion-actions"><button type="button" class="text-button" id="open-all">Mở tất cả</button><span>·</span><button type="button" class="text-button" id="close-all">Thu gọn</button></div>
+        </div>
+        <p class="section-lead">Các bước dưới đây là quy trình được thống nhất trong Profile; nhãn kiểm thử cho biết mức độ đã xác nhận hiện tại.</p>
+        <div class="workflow-list" id="workflow-list">
+          <details class="workflow-item" open><summary><span class="workflow-number">01</span><span class="workflow-title">Xác định mục tiêu và phạm vi</span><span class="workflow-status status-designed">MUST · THIẾT KẾ</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="workflow-detail"><p>Phân loại từng liên kết/tệp, chủ đề, mục tiêu và quy mô. Chỉ ghép các nguồn cùng phục vụ một yêu cầu và có thể tổng hợp mà không làm lẫn nội dung.</p><p class="decision"><strong>Căn cứ:</strong> mục tiêu, chủ đề, góc nhìn và khối lượng 1–3 đầu vào / 30–60 phút dự kiến. Nếu chưa rõ mục tiêu hoặc vượt khối lượng, hỏi người dùng hoặc đề xuất chia lượt.</p></div></details>
+          <details class="workflow-item"><summary><span class="workflow-number">02</span><span class="workflow-title">Kiểm tra khả năng đọc và độ đầy đủ</span><span class="workflow-status status-designed">MUST · THIẾT KẾ</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="workflow-detail"><p>Kiểm tra định dạng, khả năng mở liên kết/tệp, nội dung có thể trích xuất, phần đầu/cuối và dấu hiệu bị cắt.</p><p class="decision"><strong>Nếu có lỗi:</strong> thông báo rõ; chỉ xử lý phần đọc được khi có ý nghĩa độc lập và nêu giới hạn. Nếu thiếu dữ liệu có thể đổi kết luận, yêu cầu đầu vào thay thế.</p></div></details>
+          <details class="workflow-item"><summary><span class="workflow-number">03</span><span class="workflow-title">Đăng ký nguồn và xử lý trùng lặp</span><span class="workflow-status status-designed">MUST · THIẾT KẾ</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="workflow-detail"><p>Tạo mã từ SRC-001 theo thứ tự trong mỗi lượt; lưu tên/tiêu đề, URL, loại, chủ đề, ngày đăng nếu tìm được và trạng thái kiểm tra.</p><p class="decision"><strong>Quy tắc:</strong> chỉ gộp URL/nội dung đã xác nhận trùng; cùng chủ đề chưa đủ để gộp. Mỗi ý trong báo cáo cần chỉ ra mã nguồn hỗ trợ.</p></div></details>
+          <details class="workflow-item"><summary><span class="workflow-number">04</span><span class="workflow-title">Trích âm thanh, nhận diện ngôn ngữ và phiên âm</span><span class="workflow-status status-partial">ĐÃ THỬ MỘT PHẦN</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="workflow-detail"><p>Với video, trích âm thanh khi cần. Giữ ngôn ngữ gốc trong lời thoại; làm rõ thuật ngữ khi có căn cứ và không tự ý dịch nếu người dùng chưa yêu cầu.</p><p class="decision"><strong>Đã thử:</strong> FFmpeg trích âm thanh từ một MP4 mẫu và faster-whisper phiên âm cục bộ một mẫu ngắn. Chưa xác nhận chất lượng cho mọi ngôn ngữ, tệp dài hoặc đầu vào qua Feishu.</p></div></details>
+          <details class="workflow-item"><summary><span class="workflow-number">05</span><span class="workflow-title">Rà lại đoạn chưa rõ và ghi mốc thời gian</span><span class="workflow-status status-designed">MUST · THIẾT KẾ</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="workflow-detail"><p>Kiểm tra lại đoạn nhiễu, nói chồng, tên riêng, thuật ngữ, con số, câu bất thường hoặc đoạn bị ngắt. Ghi thời gian bắt đầu–kết thúc đến giây khi xác định được.</p><p class="decision"><strong>Nếu vẫn không rõ:</strong> giữ vị trí trong câu, dùng nhãn “Không nghe rõ” hoặc “Chưa xác minh”; không đoán từ và không bịa mốc thời gian.</p></div></details>
+          <details class="workflow-item"><summary><span class="workflow-number">06</span><span class="workflow-title">Chọn ý chính và phân loại nội dung</span><span class="workflow-status status-designed">MUST · THIẾT KẾ</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="workflow-detail"><p>Ưu tiên liên quan trực tiếp đến mục tiêu, sau đó xét mức độ quan trọng, bằng chứng, giá trị mới và trùng lặp. Phân biệt thông tin từ nguồn, ý kiến cá nhân và đề xuất.</p><p class="decision"><strong>Không làm:</strong> biến ý kiến thành sự thật, biến đề xuất thành kết quả đã thực hiện hoặc đưa chi tiết ngoài chủ đề lên trước ý trọng tâm.</p></div></details>
+          <details class="workflow-item"><summary><span class="workflow-number">07</span><span class="workflow-title">Đối chiếu thông tin trên Internet</span><span class="workflow-status status-unconfirmed">CHƯA THỬ ĐẦU-CUỐI</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="workflow-detail"><p>Với thông tin quan trọng, Profile yêu cầu ít nhất hai nguồn độc lập hỗ trợ trực tiếp trước khi đánh dấu đã xác minh. Ưu tiên nguồn chính thức, tài liệu gốc, nguồn chuyên môn và báo chí có căn cứ.</p><p class="decision"><strong>Đã có công cụ Web Search:</strong> nhưng quy trình kiểm chứng trong một báo cáo thật chưa được xác nhận. Nếu chỉ có một nguồn hoặc không có bằng chứng phù hợp, ghi rõ “Chưa đủ nguồn độc lập” hoặc “Chưa xác minh”.</p></div></details>
+          <details class="workflow-item"><summary><span class="workflow-number">08</span><span class="workflow-title">Phân biệt mâu thuẫn với cập nhật</span><span class="workflow-status status-designed">MUST · THIẾT KẾ</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="workflow-detail"><p>So sánh đối tượng, phạm vi, thời điểm, đơn vị, phương pháp và ngữ cảnh. Không mặc định số liệu mới hơn là chính xác hơn.</p><p class="decision"><strong>Nếu không giải quyết được:</strong> giữ cả hai cách đưa tin, ghi bằng chứng/nguồn và cảnh báo nếu điều đó tác động đến kết luận chính.</p></div></details>
+          <details class="workflow-item"><summary><span class="workflow-number">09</span><span class="workflow-title">Viết và tự kiểm tra báo cáo</span><span class="workflow-status status-designed">MUST · THIẾT KẾ</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="workflow-detail"><p>Sắp xếp theo mục tiêu và logic; rà số liệu, tên riêng, mã nguồn, thời gian, trích dẫn, trạng thái xác minh, chính tả và bố cục.</p><p class="decision"><strong>Chỉ xuất bản thảo hoàn chỉnh</strong> khi lỗi quan trọng đã được xử lý và giới hạn cần thiết được nêu rõ.</p></div></details>
+          <details class="workflow-item"><summary><span class="workflow-number">10</span><span class="workflow-title">Bàn giao trong hội thoại và tệp tài liệu</span><span class="workflow-status status-unconfirmed">WORD/PDF CHƯA XÁC NHẬN</span><span class="summary-plus" aria-hidden="true">+</span></summary><div class="workflow-detail"><p>Thiết kế đầu ra gồm báo cáo trong cuộc trò chuyện và tệp Word/PDF có tiêu đề, mục lục, nội dung chính, ý quan trọng kèm thời gian, kết luận và nguồn tham khảo.</p><p class="decision"><strong>Giới hạn hiện tại:</strong> chưa kiểm thử việc tạo, mở lại và rà bố cục Word/PDF; không coi phần này là đã hoạt động.</p></div></details>
+        </div>
+      </section>
+
+      <section class="section section-yellowwash" id="dau-ra">
+        <div class="section-shell">
+          <div class="section-heading">
+            <span class="section-icon icon-blue" aria-hidden="true">📤</span>
+            <div><p class="eyebrow">06 · ĐẦU RA</p><h2>Những phần báo cáo được thiết kế</h2></div>
+          </div>
+          <div class="output-grid">
+            <article class="output-card"><span class="output-emoji">💬</span><h3>Bản xem trong hội thoại</h3><p>Tóm tắt theo mức độ chi tiết và ngôn ngữ người dùng chọn; mặc định tiếng Việt.</p></article>
+            <article class="output-card"><span class="output-emoji">📝</span><h3>Tài liệu Word</h3><p>Thiết kế có tiêu đề, mục lục, nội dung chính, kết luận, mốc thời gian và nguồn tham khảo.</p></article>
+            <article class="output-card"><span class="output-emoji">📄</span><h3>Tài liệu PDF</h3><p>Bản thuận tiện để lưu trữ/chia sẻ sau khi nội dung và bố cục đã được kiểm tra.</p></article>
+            <article class="output-card"><span class="output-emoji">🔖</span><h3>Bảng nguồn</h3><p>Mã nguồn, tên/URL, loại đầu vào, trạng thái đọc và ghi chú xác minh để truy xuất lại.</p></article>
+          </div>
+          <p class="small-caveat">Các cấu trúc đầu ra là yêu cầu trong Profile; việc tạo và mở kiểm tra Word/PDF chưa được thử thành công đầu-cuối.</p>
+        </div>
+      </section>
+
+      <section class="section section-shell" id="nang-luc">
+        <div class="section-heading">
+          <span class="section-icon icon-blue" aria-hidden="true">⚖️</span>
+          <div><p class="eyebrow">07 · KHẢ NĂNG VÀ GIỚI HẠN</p><h2>Điều được thiết kế và điều Agent không làm</h2></div>
+        </div>
+        <div class="capability-grid">
+          <article class="capability-card capability-yes"><div class="capability-heading"><span>✓</span><h3>Được thiết kế để hỗ trợ</h3></div><ul><li>Kiểm tra file/link và thông báo đầu vào không đọc được.</li><li>Trích âm thanh, phiên âm và nhận diện ngôn ngữ.</li><li>Chọn ý chính, thêm mốc thời gian và gắn mã nguồn.</li><li>Đối chiếu nguồn, nêu mâu thuẫn và nội dung chưa xác minh.</li><li>Soạn báo cáo tiếng Việt và tạo Word/PDF theo yêu cầu.</li></ul></article>
+          <article class="capability-card capability-no"><div class="capability-heading"><span>×</span><h3>Không được phép hoặc không cam kết</h3></div><ul><li>Không bịa dữ kiện, câu nói, số liệu, nguồn hoặc mốc thời gian.</li><li>Không biến ý kiến thành sự thật hay đề xuất thành kết quả.</li><li>Không chọn một bên khi nguồn mâu thuẫn mà chưa đủ căn cứ.</li><li>Không tự gửi/công bố báo cáo hoặc sửa tệp gốc của người dùng.</li><li>Không đảm bảo đọc được trang có đăng nhập, nội dung bị chặn hay tệp hỏng.</li></ul></article>
+        </div>
+        <div class="capability-foot"><span class="badge badge-green">Đã thử riêng</span> MP4 → trích âm thanh → phiên âm cục bộ trên mẫu ngắn <span class="separator">·</span> <span class="badge badge-yellow">Chưa xác nhận</span> xử lý trọn chuỗi và mọi định dạng/nguồn</div>
+      </section>
+
+      <section class="section section-bluewash" id="cach-dung">
+        <div class="section-shell usage-layout">
+          <div>
+            <div class="section-heading"><span class="section-icon icon-butter" aria-hidden="true">🗣️</span><div><p class="eyebrow">08 · CÁCH SỬ DỤNG</p><h2>Giao việc rõ để Agent bám đúng mục tiêu</h2></div></div>
+            <ol class="usage-steps"><li><span>1</span><p>Mở Hermes và chọn Profile <strong>tintuc</strong>.</p></li><li><span>2</span><p>Gửi liên kết hoặc đính kèm tệp MP3, WAV, MP4 trong Hermes.</p></li><li><span>3</span><p>Nêu chủ đề, mục tiêu, ngôn ngữ và mức độ chi tiết nếu cần.</p></li><li><span>4</span><p>Đọc các điểm chưa xác minh/mâu thuẫn và kiểm tra tệp đầu ra trước khi dùng chính thức.</p></li></ol>
+          </div>
+          <div class="prompt-card">
+            <div class="prompt-top"><span>💬 CÂU LỆNH MẪU</span><span class="prompt-dots">•••</span></div>
+            <blockquote>Hãy tổng hợp các liên kết và tệp tôi gửi về <em>[chủ đề]</em>. Viết bằng tiếng Việt, mức độ chi tiết <em>[ngắn gọn/chi tiết]</em>. Gắn mã SRC cho từng nguồn, ghi khoảng thời gian cho các ý chính, phân biệt thông tin từ nguồn, ý kiến và đề xuất. Kiểm chứng thông tin quan trọng bằng hai nguồn độc lập; đánh dấu rõ phần chưa xác minh hoặc mâu thuẫn. Không suy đoán và không gửi báo cáo ra bên ngoài.</blockquote>
+            <p class="prompt-foot">Ví dụ chỉ là câu lệnh tham khảo. Trang này không gửi câu lệnh đến Hermes.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-shell" id="demo">
+        <div class="section-heading section-heading-spread">
+          <div class="heading-combo"><span class="section-icon icon-butter" aria-hidden="true">✨</span><div><p class="eyebrow">09 · DEMO TĨNH</p><h2>Xem quy trình mẫu</h2></div></div>
+          <span class="badge badge-yellow">Kịch bản hư cấu · không xử lý dữ liệu thật</span>
+        </div>
+        <div class="demo-layout">
+          <div class="demo-copy"><h3>Một thành phố cân nhắc xe buýt điện</h3><p>Chủ đề, lời thoại, nguồn và thời gian trong demo đều được viết sẵn để minh họa cách trình bày. Không đại diện sự kiện hoặc nguồn có thật.</p><button class="button button-blue" type="button" id="run-demo">Xem quy trình mẫu <span aria-hidden="true">→</span></button><p class="demo-safe"><span aria-hidden="true">🔒</span> Nút này chỉ thay đổi giao diện trên trang; không có upload, chat, tìm web hay gọi Agent.</p></div>
+          <div class="demo-panel" aria-label="Các bước mô phỏng" aria-live="polite">
+            <div class="demo-panel-head"><span><i class="live-dot"></i> KỊCH BẢN CỐ ĐỊNH</span><span id="demo-state">CHỜ CHẠY</span></div>
+            <ol class="demo-timeline" id="demo-timeline">
+              <li><span class="demo-step-no">01</span><span><strong>Kiểm tra đầu vào</strong><small>Kiểu tệp · khả năng đọc · chủ đề</small></span><span class="step-state">SẴN SÀNG</span></li>
+              <li><span class="demo-step-no">02</span><span><strong>Trích lời và nhận diện ngôn ngữ</strong><small>Giữ ý gốc · đánh dấu phần chưa rõ</small></span><span class="step-state">CHỜ</span></li>
+              <li><span class="demo-step-no">03</span><span><strong>Phân loại và đối chiếu nguồn</strong><small>Thông tin · ý kiến · đề xuất</small></span><span class="step-state">CHỜ</span></li>
+              <li><span class="demo-step-no">04</span><span><strong>Tạo bản tổng hợp</strong><small>Mã nguồn · thời gian · giới hạn</small></span><span class="step-state">CHỜ</span></li>
+            </ol>
+            <div class="demo-result" id="demo-result" hidden>
+              <div class="result-heading"><span>✦</span><div><strong>BẢN TÓM LƯỢC MINH HỌA</strong><small>Nội dung giả lập, chưa kiểm chứng độc lập</small></div></div>
+              <div class="result-row"><span class="result-tag tag-fact">THÔNG TIN</span><p>Người trình bày nêu ý tưởng thí điểm xe buýt điện trên một số tuyến.<small>SRC-DEMO · [00:12–00:33] *</small></p></div>
+              <div class="result-row"><span class="result-tag tag-opinion">Ý KIẾN</span><p>Người nói cho rằng giảm tiếng ồn là một lợi ích cần cân nhắc.<small>SRC-DEMO · [00:34–00:48] *</small></p></div>
+              <div class="result-row"><span class="result-tag tag-limit">GIỚI HẠN</span><p>Nội dung, nguồn và mốc thời gian đều là minh họa; không có nguồn Internet được kiểm tra.</p></div>
+              <p class="result-note">* Mốc thời gian thuộc kịch bản giả lập, không trỏ đến video thật.</p>
+            </div>
+            <div class="demo-footer"><span>KHÔNG GỬI DỮ LIỆU</span><span>KHÔNG API</span><span>KHÔNG TẢI LÊN</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-yellowwash" id="kiem-thu">
+        <div class="section-shell">
+          <div class="section-heading"><span class="section-icon icon-blue" aria-hidden="true">🧪</span><div><p class="eyebrow">10 · TRẠNG THÁI KIỂM THỬ</p><h2>Đã thử riêng không đồng nghĩa đã chạy trọn quy trình</h2></div></div>
+          <div class="test-grid">
+            <article class="test-card test-card-ok"><div class="test-title"><span class="test-icon">✓</span><div><span class="eyebrow">ĐÃ KIỂM THỬ THỰC TẾ</span><h3>Thành phần cục bộ</h3></div></div><ul><li>Đọc được một mẫu MP4 ngắn.</li><li>FFmpeg trích âm thanh từ mẫu đó thành WAV.</li><li>faster-whisper phiên âm cục bộ mẫu ngắn.</li></ul><p>Chỉ xác nhận các bước media/phiên âm trên một mẫu; không chứng minh phân tích và bàn giao báo cáo hoạt động.</p></article>
+            <article class="test-card test-card-wait"><div class="test-title"><span class="test-icon">◷</span><div><span class="eyebrow">CHƯA XÁC NHẬN ĐẦU-CUỐI</span><h3>Các bước còn cần kiểm tra</h3></div></div><ul><li>MP3/WAV và link qua luồng nhận thực tế.</li><li>Tệp media gửi qua Feishu/Lark.</li><li>Đối chiếu tin bằng hai nguồn độc lập.</li><li>Mốc thời gian từng ý và nhiều nguồn.</li><li>Tạo, mở lại và kiểm tra bố cục Word/PDF.</li></ul><p>Quy tắc xử lý có trong Profile; các mục này chưa được xác nhận bằng một lượt báo cáo hoàn chỉnh.</p></article>
+          </div>
+          <div class="test-integrity"><span>✦</span><p><strong>Minh bạch về bằng chứng:</strong> website không đưa transcript, tên tệp, ảnh chụp hay dữ liệu từ mẫu riêng vào bản công khai.</p></div>
+        </div>
+      </section>
+
+      <section class="section section-shell" id="bao-mat">
+        <div class="section-heading"><span class="section-icon icon-blue" aria-hidden="true">🛡️</span><div><p class="eyebrow">11 · QUYỀN RIÊNG TƯ VÀ GIỚI HẠN</p><h2>Website chỉ để xem, không phải cổng gọi Agent</h2></div></div>
+        <div class="privacy-grid">
+          <article class="privacy-card"><span>🧊</span><h3>Không kết nối</h3><p>Không gọi Hermes, Feishu/Lark, API riêng hoặc endpoint của người dùng. Không có khóa, token, đăng nhập hay đường dẫn Profile nội bộ.</p></article>
+          <article class="privacy-card"><span>📭</span><h3>Không nhận nội dung</h3><p>Không ô chat, form, trường tải tệp hoặc chức năng gửi yêu cầu. Demo dùng nội dung cố định ngay trong website.</p></article>
+          <article class="privacy-card"><span>🔐</span><h3>Trang tĩnh, tài nguyên tại chỗ</h3><p>Không dùng analytics, thư viện/font CDN hay kết nối mạng từ mã giao diện. CSP chặn kết nối ra ngoài từ trang.</p></article>
+        </div>
+        <div class="human-box"><span class="human-icon">🙋</span><div><h3>Khi nào cần người dùng xem lại?</h3><p>Đầu vào không đọc được hoặc thiếu; lời nói/tên riêng/số liệu chưa rõ; nguồn mâu thuẫn; thiếu bằng chứng cho kết luận quan trọng; hoặc báo cáo cần duyệt trước khi sử dụng chính thức.</p></div></div>
+      </section>
+
+      <section class="closing-section">
+        <div class="closing-cloud cloud-left" aria-hidden="true"></div><div class="closing-cloud cloud-right" aria-hidden="true"></div>
+        <div class="closing-inner"><div class="closing-sun" aria-hidden="true">☀</div><p class="eyebrow">HERMES AGENT · TINTUC</p><h2>Rõ nguồn. Rõ giới hạn.<br>Không đoán khi thiếu căn cứ.</h2><a class="button button-blue" href="#demo">Xem lại quy trình mẫu <span aria-hidden="true">↑</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="footer-inner"><span>tintuc · Trang trưng bày công khai</span><span>Chỉ hiển thị nội dung tĩnh · Không kết nối Agent</span><a href="#top">Về đầu trang ↑</a></div></footer>
+  </body>
+</html>
