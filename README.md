@@ -1,6 +1,6 @@
-# tintuc — Trang trưng bày Hermes Agent
+# Như Ý — Trang trưng bày Hermes Agent
 
-Website tĩnh bằng HTML/CSS/JavaScript, giới thiệu Hermes Agent `tintuc` với giao diện pastel xanh trời và vàng bơ. Nội dung mô tả đúng quy trình đã thống nhất, nêu rõ trạng thái kiểm thử và dùng một kịch bản demo hư cấu cố định.
+Website tĩnh bằng HTML/CSS/JavaScript, giới thiệu Hermes Agent Như Ý với giao diện pastel xanh trời và vàng bơ. Nội dung mô tả quy trình, nêu rõ trạng thái kiểm thử và dùng một kịch bản demo hư cấu cố định.
 
 ## Các tệp
 
@@ -19,13 +19,10 @@ Website tĩnh bằng HTML/CSS/JavaScript, giới thiệu Hermes Agent `tintuc` v
 
 ## Xem cục bộ
 
-Mở `index.html` trong trình duyệt, hoặc chạy một máy chủ tĩnh trong thư mục này. Dùng điều hướng để chuyển section, mở/thu gọn quy trình, rồi nhấn **Xem quy trình mẫu**. Demo chỉ minh họa định dạng đầu ra, không phải kết quả kiểm chứng.
+Mở `index.html` trong trình duyệt, dùng điều hướng để chuyển section, mở/thu gọn quy trình, rồi nhấn **Xem quy trình mẫu**. Demo chỉ minh họa định dạng đầu ra, không phải kết quả kiểm chứng.
 
 ## Xuất bản bằng GitHub Pages
 
-1. Tạo repository riêng cho website. Chỉ tải các tệp giao diện trong thư mục này lên, không thêm tài liệu Agent gốc.
-2. Commit `index.html`, `styles.css`, `script.js`, `.nojekyll` và `README.md` vào branch `main`.
-3. Trong **Settings → Pages**, chọn **Deploy from a branch**, branch `main` và thư mục `/(root)`, sau đó lưu.
-4. Đợi GitHub Pages triển khai, rồi mở URL GitHub hiển thị để kiểm tra trang và nút demo.
+Repository này chứa riêng các tệp website trưng bày. GitHub Pages được cấu hình từ branch `main`, thư mục root. Sau khi cập nhật, chờ Pages triển khai rồi mở URL công khai để kiểm tra trang và nút demo.
 
-Chỉ xác nhận đã công khai sau khi URL thực tế mở được và demo hoạt động.
+Website chỉ hiển thị nội dung tĩnh, không kết nối Agent thật hoặc API.
